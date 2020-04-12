@@ -10,9 +10,9 @@ public class ContatoDTO implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
-    //@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "CONTATO_SEQ_GEN")
-    //@SequenceGenerator(name = "CONTATO_SEQ_GEN", sequenceName = "contato_seq", allocationSize = 1)
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "CONTATO_SEQ_GEN")
+    @SequenceGenerator(name = "CONTATO_SEQ_GEN", sequenceName = "contato_seq", allocationSize = 1)
+    //@GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @Column
