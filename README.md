@@ -9,3 +9,12 @@
 - Maven
 - Junit
 - Java8
+
+## Descrição
+Agenda de Contatos. Permite adicionar, alterar, consultar por ID, consultar todos, excluir.
+
+### Métodos de consulta HTTP
+- POST
+- GET
+- PUT
+- DELETE
