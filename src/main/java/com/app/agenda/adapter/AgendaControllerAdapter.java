@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 
+/**
+ * @author Uirá Haun
+ */
 @RestController
 public class AgendaControllerAdapter {
 

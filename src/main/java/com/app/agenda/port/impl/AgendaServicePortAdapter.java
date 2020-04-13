@@ -13,6 +13,9 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 import java.util.List;
 
+/**
+ * @author Uirá Haun
+ */
 @Service
 public class AgendaServicePortAdapter implements AgendaServicePort {
 

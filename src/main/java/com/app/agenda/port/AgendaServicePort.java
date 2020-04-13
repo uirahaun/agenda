@@ -5,6 +5,9 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+/**
+ * @author Uirá Haun
+ */
 public interface AgendaServicePort {
     ContatoDTO addContact(ContatoDTO contatoDTO);
 

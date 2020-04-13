@@ -2,6 +2,7 @@ package com.app.agenda.domain;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * @author Uirá Haun
@@ -35,5 +36,19 @@ public class ContatoLista implements Serializable {
 
     public void setLista(List<ContatoDTO> lista) {
         this.lista = lista;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ContatoLista that = (ContatoLista) o;
+        return total == that.total &&
+                Objects.equals(lista, that.lista);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(total, lista);
     }
 }
