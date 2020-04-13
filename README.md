@@ -1,7 +1,7 @@
-## Aplicação construída em Arquitetura Hexagonal
+# Aplicação construída em Arquitetura Hexagonal
 ## Author - Uirá Haun
 
-# Tecnologias utilizadas
+## Tecnologias utilizadas
 - Spring Data
 - Spring Test
 - PostgreSQL 10
